@@ -9,6 +9,6 @@ Referência : https://www.geeksforgeeks.org/download-and-install-pip-latest-vers
 2. Salvar na mesma pasta do Python.
 3. Entrar no cmd e accessar a pasta do Python.
 4. Executar  o compando :<p>
- <span style="color:blue">python get-pip.py</span>
+ **python get-pip.py**
   
 5. adf
