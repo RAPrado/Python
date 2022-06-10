@@ -8,6 +8,7 @@ Referência : https://www.geeksforgeeks.org/download-and-install-pip-latest-vers
 1. Baixar o arquivo do pip em https://bootstrap.pypa.io/get-pip.py
 2. Salvar na mesma pasta do Python.
 3. Entrar no cmd e accessar a pasta do Python.
-4. Executar  o compando :
- python get-pip.py
+4. Executar  o compando :<p>
+ <span style="color:blue">python get-pip.py</span>
+  
 5. adf
