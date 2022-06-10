@@ -10,8 +10,8 @@
 4. Executar  o compando :<p>
  **python get-pip.py**
   
-  [[image/image01.png]]
-  <img src="../image/image01.png">
+  [[/image/image01.png]]
+  <img src="/image/image01.png">
   
 5. adf
 
