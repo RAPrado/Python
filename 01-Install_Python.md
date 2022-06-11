@@ -24,5 +24,5 @@
 
   
 Referência :
--https://www.geeksforgeeks.org/download-and-install-pip-latest-version/#windows
--https://neps.academy/br/blog/como-instalar-pip:-o-gerenciador-de-pacotes-do-python-no-windows
+*https://www.geeksforgeeks.org/download-and-install-pip-latest-version/#windows
+*https://neps.academy/br/blog/como-instalar-pip:-o-gerenciador-de-pacotes-do-python-no-windows
