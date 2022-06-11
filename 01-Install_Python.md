@@ -11,6 +11,7 @@
  **python get-pip.py**  
 5. Aguardar a execução, conforme print abaixo :
   <img src="/image/image01.png">
+
 6. Se quiser listar as bibliotecas instaladas :
   **pip freeze**
 7. Para instalar uma biblioteca :
