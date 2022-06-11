@@ -12,9 +12,9 @@
 5. Aguardar a execução, conforme print abaixo :
   <img src="/image/image01.png">
 
-6. Se quiser listar as bibliotecas instaladas :
+6. Se quiser listar as bibliotecas instaladas :<p>
   **pip freeze**
-7. Para instalar uma biblioteca :
+7. Para instalar uma biblioteca :<p>
   **pip install <nome da bliboteca>**  
   
   
