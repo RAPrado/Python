@@ -15,7 +15,7 @@
 6. Se quiser listar as bibliotecas instaladas :<p>
   **pip freeze**
 7. Para instalar uma biblioteca :<p>
-  **pip install <nome da bliboteca>**  
+  **pip install <<nome da bliboteca>>**  
   
   
 # c) Mudar o path do Windows para contemplar o Python e o PIP
