@@ -24,8 +24,11 @@ https://neps.academy/br/blog/como-instalar-pip:-o-gerenciador-de-pacotes-do-pyth
 # c) Mudar o path do Windows para contemplar o Python e o PIP
 1. Verificar se nas variáves de sistemas do Windows aparece a chamada para o Python e o PIP. Digitar VAR no pesquisar do Windows e dar enter.
 2. Acessar a aba **Advanced**, e clicar no botão **Environment Variables**.
-2. Caso contrário, criar uma chamada com o nome de JAVA_HOME, e definir um caminho, como por exemplo : C:\Program Files\Zulu\zulu-11
-3. Em path, validar se há a chamada para a pasta onde o Java foi instaldo : C:\Program Files\Zulu\zulu-11\bin, e mover isso, para o topo da lista.
+3. Na lista que aparece em **User variables for xxxx**, clique duas vezes em **Path**.
+4. Irá abrir uma janela **Edi environment variable**, com os caminhos contidos no path.
+5. Para adicionar o caminho do Python, clique no botão **New** e preencha com o endereço onde está o arquivo do Python.exe
+6. Para adicionar o caminho do PIP, clique no botão **New** e preencha com o endereço onde está o arquivo do PIP.exe
+7. Para garantir que o Python seja executado ao chamá-lo, mova o item **%USERPROFILE%\AppData\Local\Microsoft\WindowsApps** para o fim da lista, pois do contrário o Windows vai abrir o site da loja do Windows, para baixar o Python.
   
   Referência :<p>
   https://www.youtube.com/watch?v=G-HJg9CiPLw
