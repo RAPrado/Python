@@ -13,7 +13,10 @@
 5. Aguardar a execução, conforme print abaixo :
   <img src="/image/image01.png">
   
-6. adf
+# c) Mudar o path do Windows para contemplar o Python e o PIP
+
+# d) Criar ambiente virtual para o Python
+
 
   
 Referência : https://www.geeksforgeeks.org/download-and-install-pip-latest-version/#windows
