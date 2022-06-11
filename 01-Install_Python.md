@@ -16,14 +16,20 @@
   **pip freeze**
 7. Para instalar uma biblioteca :<p>
   **pip install < nome da bliboteca >**  
-  
+
+Referência :<p>
+https://www.geeksforgeeks.org/download-and-install-pip-latest-version/#windows<p>
+https://neps.academy/br/blog/como-instalar-pip:-o-gerenciador-de-pacotes-do-python-no-windows
   
 # c) Mudar o path do Windows para contemplar o Python e o PIP
 
+  Referência :<p>
+  https://www.youtube.com/watch?v=G-HJg9CiPLw
+  
 # d) Criar ambiente virtual para o Python
 
 
   
-Referência :
-*https://www.geeksforgeeks.org/download-and-install-pip-latest-version/#windows
-*https://neps.academy/br/blog/como-instalar-pip:-o-gerenciador-de-pacotes-do-python-no-windows
+Referência :<p>
+https://www.geeksforgeeks.org/download-and-install-pip-latest-version/#windows<p>
+https://neps.academy/br/blog/como-instalar-pip:-o-gerenciador-de-pacotes-do-python-no-windows
