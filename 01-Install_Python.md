@@ -8,10 +8,14 @@
 2. Salvar na mesma pasta do Python.
 3. Entrar no cmd e accessar a pasta do Python.
 4. Executar  o compando :<p>
- **python get-pip.py**
-  
+ **python get-pip.py**  
 5. Aguardar a execução, conforme print abaixo :
   <img src="/image/image01.png">
+6. Se quiser listar as bibliotecas instaladas :
+  **pip freeze**
+7. Para instalar uma biblioteca :
+  **pip install <nome da bliboteca>**  
+  
   
 # c) Mudar o path do Windows para contemplar o Python e o PIP
 
@@ -19,4 +23,6 @@
 
 
   
-Referência : https://www.geeksforgeeks.org/download-and-install-pip-latest-version/#windows
+Referência :
+-https://www.geeksforgeeks.org/download-and-install-pip-latest-version/#windows
+-https://neps.academy/br/blog/como-instalar-pip:-o-gerenciador-de-pacotes-do-python-no-windows
