@@ -22,7 +22,11 @@ https://www.geeksforgeeks.org/download-and-install-pip-latest-version/#windows<p
 https://neps.academy/br/blog/como-instalar-pip:-o-gerenciador-de-pacotes-do-python-no-windows
   
 # c) Mudar o path do Windows para contemplar o Python e o PIP
-
+1. Verificar se nas variáves de sistemas do Windows aparece a chamada para o Python e o PIP. Digitar VAR no pesquisar do Windows e dar enter.
+2. Acessar a aba **Advanced**, e clicar no botão **Environment Variables**.
+2. Caso contrário, criar uma chamada com o nome de JAVA_HOME, e definir um caminho, como por exemplo : C:\Program Files\Zulu\zulu-11
+3. Em path, validar se há a chamada para a pasta onde o Java foi instaldo : C:\Program Files\Zulu\zulu-11\bin, e mover isso, para o topo da lista.
+  
   Referência :<p>
   https://www.youtube.com/watch?v=G-HJg9CiPLw
   
