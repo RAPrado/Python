@@ -10,10 +10,10 @@
 4. Executar  o compando :<p>
  **python get-pip.py**
   
-  [[/image/image01.png]]
+5. Aguardar a execução, conforme print abaixo :
   <img src="/image/image01.png">
   
-5. adf
+6. adf
 
   
 Referência : https://www.geeksforgeeks.org/download-and-install-pip-latest-version/#windows
