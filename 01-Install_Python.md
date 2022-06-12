@@ -12,14 +12,14 @@
 5. Aguardar a execução, conforme print abaixo :
   <img src="/image/image01.png">
 
-4. Execute o compando abaixo, no cmd, para saber a versão pip e com isso validar que a instalação deu certo:<p>
+6. Execute o compando abaixo, no cmd, para saber a versão pip e com isso validar que a instalação deu certo:<p>
  **pip --version**
 
   Se deu certo, deverá aparecer a tela abaixo : <p>
-  <img src="/image/image02.png">
+  <img src="/image/image03.png">
     
   Do contrário, pode aparecer a tela abaixo : <p>
-  <img src="/image/image03.png">
+  <img src="/image/image02.png">
   
 6. Se quiser listar as bibliotecas instaladas :<p>
   **pip freeze**
