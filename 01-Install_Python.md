@@ -35,6 +35,11 @@ https://neps.academy/br/blog/como-instalar-pip:-o-gerenciador-de-pacotes-do-pyth
   
 # d) Criar ambiente virtual para o Python
 
+  
+  Referência :<p>
+  https://acervolima.com/criacao-de-ambiente-virtual-python-no-windows-e-linux/
+  
+# e) Instalar o Jupyter Notebook
 
   
 Referência :<p>
