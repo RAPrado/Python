@@ -21,7 +21,7 @@
   Do contrário, pode aparecer a tela abaixo : <p>
   <img src="/image/image02.png">
   
-  Se ocoorer esse erro, então vá na pasta de instalação do Python, abra o arquivo pythonXX._pth, onde XX é a versão do Python, e adicione a linha **Lib\site-packages**, conforme o print abaixo :
+  Se ocoorer esse erro, então vá na pasta de instalação do Python, abra o arquivo **pythonXX._pth**, onde XX é a versão do Python, e adicione a linha **Lib\site-packages**, conforme o print abaixo : <p>
   <img src="/image/image04.png">
   
 6. Se quiser listar as bibliotecas instaladas :<p>
