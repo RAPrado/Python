@@ -59,15 +59,22 @@ https://neps.academy/br/blog/como-instalar-pip:-o-gerenciador-de-pacotes-do-pyth
 **pip install virtualenv**
  <img src="/image/image06.png">
     
-2. Execute o compando abaixo no cmd, ver a versão do vitualenv:<p>
+2. Execute o compando abaixo no cmd, ver a versão do vitualenv e ter certeza que instalou:<p>
 **virtualenv --version**
 
-3. Agora, para criar um ambiente virtutal, execute o compando abaixo no cmd:<p>
+3. Agora, para criar um ambiente virtual, execute o compando abaixo no cmd:<p>
 **virtualenv nome_pasta_virtual**
-  
-  
-  Referência :<p>
-  https://acervolima.com/criacao-de-ambiente-virtual-python-no-windows-e-linux/
+<img src="/image/image07.png">
+
+Caso dê o erro abaixo :<p>
+<img src="/image/image08.png">
+
+Crie essa pasta **DLLs** dentro da pasta do Python<p>
+<img src="/image/image08.png">
+    
+  Referência :<p>  
+  https://acervolima.com/criacao-de-ambiente-virtual-python-no-windows-e-linux/<br>
+  https://stackoverflow.com/questions/63784090/virtualenv-the-system-cannot-find-the-path-specified-python3-6-dll
   
 # e) Instalar o Jupyter Notebook
 
