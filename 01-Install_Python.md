@@ -18,10 +18,18 @@
   Se deu certo, deverá aparecer a tela abaixo : <p>
   <img src="/image/image03.png">
     
-  Do contrário, pode aparecer a tela abaixo : <p>
+  Do contrário, pode aparecer a mensagem abaixo : <p>
+  
+  C:\Users\XXX>pip --version<br>
+  Traceback (most recent call last):<br>
+  File "runpy.py", line 197, in _run_module_as_main<br>
+  File "runpy.py", line 87, in _run_code<br>
+  File "C:\Users\XXX\Documents\Programacao\Python\python-3.9.13-embed-amd64\Scripts\pip.exe\__main__.py", line 4, in <module><br>
+  ModuleNotFoundError: No module named 'pip'<p>
+
   <img src="/image/image02.png">
   
-  Se ocoorer esse erro, então vá na pasta de instalação do Python, abra o arquivo **pythonXX._pth**, onde XX é a versão do Python, e adicione a linha **Lib\site-packages**, conforme o print abaixo : <p>
+  Se ocoorer esse erro, então vá na pasta de instalação do Python, abra o arquivo **pythonXX._pth**, onde XX é a versão do Python, e adicione a linha **Lib\site-packages**, conforme o print abaixo, salve e feche o arquivo. <p>
   <img src="/image/image04.png">
   
 6. Se quiser listar as bibliotecas instaladas :<p>
