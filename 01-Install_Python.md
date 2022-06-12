@@ -59,7 +59,7 @@ https://neps.academy/br/blog/como-instalar-pip:-o-gerenciador-de-pacotes-do-pyth
 **pip install virtualenv**
  <img src="/image/image06.png">
     
-2. Execute o compando abaixo no cmd, ver a versão do vitualenv e ter certeza que instalou:<p>
+2. Execute o compando abaixo no cmd, para ver a versão do vitualenv e ter certeza que instalou:<p>
 **virtualenv --version**
 
 3. Agora, para criar um ambiente virtual, execute o compando abaixo no cmd:<p>
@@ -70,7 +70,7 @@ Caso dê o erro abaixo :<p>
 <img src="/image/image08.png">
 
 Crie essa pasta **DLLs** dentro da pasta do Python<p>
-<img src="/image/image08.png">
+<img src="/image/image09.png">
     
   Referência :<p>  
   https://acervolima.com/criacao-de-ambiente-virtual-python-no-windows-e-linux/<br>
