@@ -32,12 +32,13 @@
   Se ocoorer esse erro, então vá na pasta de instalação do Python, abra o arquivo **pythonXX._pth**, onde XX é a versão do Python, e adicione a linha **Lib\site-packages**, conforme o print abaixo, salve e feche o arquivo. <p>
   <img src="/image/image04.png">
   
-6. Se quiser listar as bibliotecas instaladas :<p>
-  **pip freeze**
-7. Para instalar uma biblioteca :<p>
+7. Se quiser listar as bibliotecas instaladas :<p>
+  **pip list**
+8. Para instalar uma biblioteca :<p>
   **pip install < nome da bliboteca >**  
 
 Referência :<p>
+https://stackoverflow.com/questions/32639074/why-am-i-getting-importerror-no-module-named-pip-right-after-installing-pip
 https://www.geeksforgeeks.org/download-and-install-pip-latest-version/#windows<p>
 https://neps.academy/br/blog/como-instalar-pip:-o-gerenciador-de-pacotes-do-python-no-windows
   
