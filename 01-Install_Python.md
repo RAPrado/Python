@@ -54,15 +54,15 @@ https://neps.academy/br/blog/como-instalar-pip:-o-gerenciador-de-pacotes-do-pyth
   Referência :<p>
   https://www.youtube.com/watch?v=G-HJg9CiPLw
   
-# d) Criar ambiente virtual com o **virtualenv** no Python
+# d) Criar um ambiente virtual com o **virtualenv** no Python
 1. Execute o compando abaixo no cmd, para instalar o vitualenv:<p>
 **pip install virtualenv**
  <img src="/image/image06.png">
     
-2. Execute o compando abaixo no cmd, para ver a versão do vitualenv e ter certeza que instalou:<p>
+2. Execute o compando abaixo no cmd, para ver a versão do vitualenv e ter certeza que está funcionando:<p>
 **virtualenv --version**
 
-3. Agora, para criar um ambiente virtual, execute o compando abaixo no cmd:<p>
+3. Agora, para criar um ambiente virtual, execute o compando abaixo no cmd. Será criado uma pasta com o nome escolhido, na raiz do diretório eum que você se encontre:<p>
 **virtualenv nome_pasta_virtual**
 <img src="/image/image07.png">
 
@@ -71,11 +71,21 @@ Caso dê o erro abaixo :<p>
 
 Crie essa pasta **DLLs** dentro da pasta do Python<p>
 <img src="/image/image09.png">
+
+4. É necessário ativar o ambiente virtual criado, para isso, entre na pasta criada, e acesse a pasta **Scripts**, e execute o arquivo **activate**
+    **C:\Users\xxx\ml_estudo\Scripts>activate**
+   
+    Conform o print abaixo, será exibido uma nova linha no cmd, onde no começo estará escrito entre parenteses, o nome da pasta virtual criada:
+    (ml_estudo) C:\Users\rodri\ml_estudo\Scripts>
+    <img src="/image/image09.png">
+
+5. Quando quiser desativar o ambiente virtual criado, execute o arquivo **deactivate**<p>
+    **C:\Users\xxx\ml_estudo\Scripts>deactivate**    
     
   Referência :<p>  
   https://acervolima.com/criacao-de-ambiente-virtual-python-no-windows-e-linux/<br>
   https://stackoverflow.com/questions/63784090/virtualenv-the-system-cannot-find-the-path-specified-python3-6-dll
-  
+    
 # e) Instalar o Jupyter Notebook
 
   
