@@ -75,8 +75,7 @@ Crie essa pasta **DLLs** dentro da pasta do Python<p>
 4. É necessário ativar o ambiente virtual criado, para isso, entre na pasta criada, e acesse a pasta **Scripts**, e execute o arquivo **activate**
     **C:\Users\xxx\ml_estudo\Scripts>activate**
    
-    Conform o print abaixo, será exibido uma nova linha no cmd, onde no começo estará escrito entre parenteses, o nome da pasta virtual criada:
-    (ml_estudo) C:\Users\rodri\ml_estudo\Scripts>
+    Conforme o print abaixo, será exibido uma nova linha no cmd, onde no começo estará escrito entre parenteses, o nome da pasta virtual criada:
     <img src="/image/image10.png">
 
 5. Quando quiser desativar o ambiente virtual criado, execute o arquivo **deactivate**<p>
