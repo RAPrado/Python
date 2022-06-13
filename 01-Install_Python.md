@@ -78,7 +78,7 @@ Crie essa pasta **DLLs** dentro da pasta do Python<p>
     Conforme o print abaixo, será exibido uma nova linha no cmd, onde no começo estará escrito entre parenteses, o nome da pasta virtual criada:
     <img src="/image/image10.png">
 
-    Enquanto estiver ativo essa pasta virtual, ela será incluída no Path do Windows, se quiser verificar, basta executar o comando :<p>
+    Enquanto estiver ativa essa pasta virtual, ela será incluída no Path do Windows. Se quiser verificar, basta executar o comando Path no cmd :<p>
     **C:\path**
     
 5. Quando quiser desativar o ambiente virtual criado, execute o arquivo **deactivate**<p>
