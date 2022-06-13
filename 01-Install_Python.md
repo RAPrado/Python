@@ -62,7 +62,7 @@ https://neps.academy/br/blog/como-instalar-pip:-o-gerenciador-de-pacotes-do-pyth
 2. Execute o compando abaixo no cmd, para ver a versão do vitualenv e ter certeza que está funcionando:<p>
 **virtualenv --version**
 
-3. Agora, para criar um ambiente virtual, execute o compando abaixo no cmd. Será criado uma pasta com o nome escolhido, na raiz do diretório eum que você se encontre:<p>
+3. Agora, para criar um ambiente virtual, execute o compando abaixo no cmd. Será criado uma pasta com o nome escolhido, na raiz do diretório em que você se encontre:<p>
 **virtualenv nome_pasta_virtual**
 <img src="/image/image07.png">
 
@@ -77,7 +77,7 @@ Crie essa pasta **DLLs** dentro da pasta do Python<p>
    
     Conform o print abaixo, será exibido uma nova linha no cmd, onde no começo estará escrito entre parenteses, o nome da pasta virtual criada:
     (ml_estudo) C:\Users\rodri\ml_estudo\Scripts>
-    <img src="/image/image09.png">
+    <img src="/image/image10.png">
 
 5. Quando quiser desativar o ambiente virtual criado, execute o arquivo **deactivate**<p>
     **C:\Users\xxx\ml_estudo\Scripts>deactivate**    
