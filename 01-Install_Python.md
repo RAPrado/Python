@@ -92,5 +92,4 @@ Crie essa pasta **DLLs** dentro da pasta do Python<p>
 
   
 Referência :<p>
-https://www.geeksforgeeks.org/download-and-install-pip-latest-version/#windows<p>
-https://neps.academy/br/blog/como-instalar-pip:-o-gerenciador-de-pacotes-do-python-no-windows
+https://jupyter.org/install
