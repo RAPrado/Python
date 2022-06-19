@@ -88,9 +88,9 @@ Crie essa pasta **DLLs** dentro da pasta do Python<p>
   https://acervolima.com/criacao-de-ambiente-virtual-python-no-windows-e-linux/<br>
   https://stackoverflow.com/questions/63784090/virtualenv-the-system-cannot-find-the-path-specified-python3-6-dll
 
-6-Tente instalar algum pacote no ambiente virtual para testar se está funcionando. Caso dê o erro:<p>
-Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding<p>
-Python runtime state: core initialized<p>
+6-Tente instalar algum pacote no ambiente virtual para testar se está funcionando. Caso dê o erro:<br>
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding<br>
+Python runtime state: core initialized<br>
     
 <img src="/image/image11.png">
 
