@@ -87,7 +87,10 @@ Crie essa pasta **DLLs** dentro da pasta do Python<p>
   Referência :<p>  
   https://acervolima.com/criacao-de-ambiente-virtual-python-no-windows-e-linux/<br>
   https://stackoverflow.com/questions/63784090/virtualenv-the-system-cannot-find-the-path-specified-python3-6-dll
-    
+
+6-Tente instalar algum pacote no ambiente virtual para testar se está funcionando. Caso dê o erro abaixo :<p>
+<img src="/image/image11.png">
+
 # e) Instalar o Jupyter Notebook
 
   
