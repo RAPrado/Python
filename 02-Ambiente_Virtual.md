@@ -28,11 +28,11 @@ Enquanto estiver ativa essa pasta virtual, ela será incluída no Path do Window
 5. Quando quiser desativar o ambiente virtual criado, execute o arquivo **deactivate**<p>
 **C:\Users\xxx\ml_estudo\Scripts>deactivate**    
     
-Referência :<p>  
+Referência :<br>  
 https://acervolima.com/criacao-de-ambiente-virtual-python-no-windows-e-linux/<br>
 https://stackoverflow.com/questions/63784090/virtualenv-the-system-cannot-find-the-path-specified-python3-6-dll
 
-6-Tente instalar algum pacote no ambiente virtual para testar se está funcionando.<p>
+6. Tente instalar algum pacote no ambiente virtual para testar se está funcionando.<p>
 Caso dê o erro:<br>
 Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding<br>
 Python runtime state: core initialized<br>
