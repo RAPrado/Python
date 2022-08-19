@@ -55,14 +55,14 @@ https://neps.academy/br/blog/como-instalar-pip:-o-gerenciador-de-pacotes-do-pyth
   https://www.youtube.com/watch?v=G-HJg9CiPLw
   
 # d) Criar um ambiente virtual com o **virtualenv** no Python
-1. Execute o compando abaixo no cmd, para instalar o vitualenv:<p>
+1. Execute o comando abaixo no cmd, para instalar o vitualenv:<p>
 **pip install virtualenv**
  <img src="/image/image06.png">
     
-2. Execute o compando abaixo no cmd, para ver a versão do vitualenv e ter certeza que está funcionando:<p>
+2. Execute o comando abaixo no cmd, para ver a versão do vitualenv e ter certeza que está funcionando:<p>
 **virtualenv --version**
 
-3. Agora, para criar um ambiente virtual, execute o compando abaixo no cmd. Será criado uma pasta com o nome escolhido, na raiz do diretório em que você se encontre:<p>
+3. Agora, para criar um ambiente virtual, execute o comando abaixo no cmd. Será criado uma pasta com o nome escolhido, na raiz do diretório em que você se encontre:<p>
 **virtualenv nome_pasta_virtual**
 <img src="/image/image07.png">
 
