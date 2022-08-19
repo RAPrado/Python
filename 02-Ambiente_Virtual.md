@@ -17,26 +17,29 @@ Crie essa pasta **DLLs** dentro da pasta do Python<p>
 <img src="/image/image09.png">
 
 4. É necessário ativar o ambiente virtual criado, para isso, entre na pasta criada, e acesse a pasta **Scripts**, e execute o arquivo **activate**
-    **C:\Users\xxx\ml_estudo\Scripts>activate**
+**C:\Users\xxx\ml_estudo\Scripts>activate**
    
-    Conforme o print abaixo, será exibido uma nova linha no cmd, onde no começo estará escrito entre parenteses, o nome da pasta virtual criada:
-    <img src="/image/image10.png">
+Conforme o print abaixo, será exibido uma nova linha no cmd, onde no começo estará escrito entre parenteses, o nome da pasta virtual criada:
+<img src="/image/image10.png">
 
-    Enquanto estiver ativa essa pasta virtual, ela será incluída no Path do Windows. Se quiser verificar, basta executar o comando Path no cmd :<p>
-    **C:\path**
+Enquanto estiver ativa essa pasta virtual, ela será incluída no Path do Windows. Se quiser verificar, basta executar o comando Path no cmd :<p>
+**C:\path**
     
 5. Quando quiser desativar o ambiente virtual criado, execute o arquivo **deactivate**<p>
-    **C:\Users\xxx\ml_estudo\Scripts>deactivate**    
+**C:\Users\xxx\ml_estudo\Scripts>deactivate**    
     
-  Referência :<p>  
-  https://acervolima.com/criacao-de-ambiente-virtual-python-no-windows-e-linux/<br>
-  https://stackoverflow.com/questions/63784090/virtualenv-the-system-cannot-find-the-path-specified-python3-6-dll
+Referência :<p>  
+https://acervolima.com/criacao-de-ambiente-virtual-python-no-windows-e-linux/<br>
+https://stackoverflow.com/questions/63784090/virtualenv-the-system-cannot-find-the-path-specified-python3-6-dll
 
-6-Tente instalar algum pacote no ambiente virtual para testar se está funcionando. Caso dê o erro:<br>
+6-Tente instalar algum pacote no ambiente virtual para testar se está funcionando.<p>
+Caso dê o erro:<br>
 Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding<br>
 Python runtime state: core initialized<br>
     
 <img src="/image/image11.png">
 
-Remova o virtualenv e volte ao passo 1.
+Remova o virtualenv e volte ao passo 1.<br>
 **pip uninstall virtualenv**   
+
+Do contrário, o ambiente virutal está criado e basta instalar os demais pacotes desejados.
