@@ -1,4 +1,4 @@
-#Criar um ambiente virtual com o **virtualenv** no Python
+# Criar um ambiente virtual com o **virtualenv** no Python
 1. Execute o comando abaixo no cmd, para instalar o vitualenv:<p>
 **pip install virtualenv**
  <img src="/image/image06.png">
