@@ -37,3 +37,6 @@ Fatal Python error: init_fs_encoding: failed to get the Python codec of the file
 Python runtime state: core initialized<br>
     
 <img src="/image/image11.png">
+
+Remova o virtualenv e volte ao passo 1.
+**pip uninstall virtualenv**   
