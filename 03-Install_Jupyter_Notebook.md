@@ -1,4 +1,4 @@
-# e) Instalar o Jupyter Notebook
+# Instalar o Jupyter Notebook
 
   
 Referência :<p>
