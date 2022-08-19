@@ -42,4 +42,4 @@ Python runtime state: core initialized<br>
 Remova o virtualenv e volte ao passo 1.<br>
 **pip uninstall virtualenv**   
 
-Do contrário, o ambiente virutal está criado e basta instalar os demais pacotes desejados.
+Do contrário, o ambiente virtual está criado, bastando instalar os demais pacotes desejados.
