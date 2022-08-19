@@ -7,12 +7,12 @@
 1. Baixar o arquivo do pip em https://bootstrap.pypa.io/get-pip.py
 2. Salvar na mesma pasta do Python.
 3. Entrar no cmd e accessar a pasta do Python.
-4. Executar  o compando :<p>
+4. Executar  o comando :<p>
  **python get-pip.py**  
 5. Aguardar a execução, conforme print abaixo :
   <img src="/image/image01.png">
 
-6. Execute o compando abaixo, no cmd, para saber a versão pip e com isso validar que a instalação deu certo:<p>
+6. Execute o comando abaixo, no cmd, para saber a versão pip e com isso validar que a instalação deu certo:<p>
  **pip --version**
 
   Se deu certo, deverá aparecer a tela abaixo : <p>
