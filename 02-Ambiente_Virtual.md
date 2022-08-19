@@ -41,5 +41,8 @@ Python runtime state: core initialized<br>
 
 Remova o virtualenv e volte ao passo 1.<br>
 **pip uninstall virtualenv**   
+ 
+ Referência :<br>
+ https://stackoverflow.com/questions/38132755/importerror-no-module-named-encodings
 
-Do contrário, o ambiente virtual está criado, bastando instalar os demais pacotes desejados.
+7. O ambiente virtual está criado, basta instalar os demais pacotes desejados.
