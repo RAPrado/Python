@@ -11,10 +11,8 @@ https://stackoverflow.com/questions/50982686/what-is-the-difference-between-jupy
 **Jupyter notebook**
  
 <img src="/image/image12.png">
-  
-Referência :<p>
-https://jupyter.org/install
 
+  
 # Instalar o Jupyter Lab
 1. Execute o comando abaixo no cmd, para instalar :<p>
 **pip install jupiterlab**
