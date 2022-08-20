@@ -39,7 +39,7 @@ Python runtime state: core initialized<br>
     
 <img src="/image/image11.png">
 
-Remova o virtualenv e volte ao passo 1.<br>
+Verifique se o nome do pacote desejado está correto. Senão for esse o problema, então remova o virtualenv e volte ao passo 1.<br>
 **pip uninstall virtualenv**   
  
  Referência :<br>
