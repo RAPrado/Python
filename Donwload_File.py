@@ -1,3 +1,5 @@
+#Referência : https://github.com/ageron/handson-ml/blob/aa6d14181b607ba0c3a67b705ad43f462fde07ce/02_end_to_end_machine_learning_project.ipynb
+
 import os
 import tarfile
 import urllib.request
