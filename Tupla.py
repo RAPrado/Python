@@ -1,4 +1,4 @@
-#Referencia : https://openclassrooms.com/en/courses/2304731-learn-python-basics-for-data-analysis/7979496-create-collections-to-store-your-objects
+#Referência : https://openclassrooms.com
 
 #Dupla são listas que não podem ser modificadas. São declaradas usando parenteses e não chaves (contrário das listas puras).
 my_tuple = (1, 2, 3, 'a', 'b')
