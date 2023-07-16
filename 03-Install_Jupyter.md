@@ -15,7 +15,7 @@ https://stackoverflow.com/questions/50982686/what-is-the-difference-between-jupy
   
 # Instalar o Jupyter Lab
 1. Execute o comando abaixo no cmd, para instalar :<p>
-**pip install jupiterlab**
+**pip install jupyterlab**
   
 2. Execute o Jupyter Lab :<p>
 **Jupyter-lab**
