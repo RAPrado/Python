@@ -3,6 +3,6 @@
 **pip install Pandas**
      
 2. Após instalado, pelo Jupyter-lab, importe a biblioteca do Pandas e teste a versão:<p>
-**import pandas as pd
+**import pandas as pd<br>
 pd.__version__**
 <img src="/image/image14.png">
