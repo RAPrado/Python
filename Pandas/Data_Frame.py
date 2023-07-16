@@ -1,4 +1,5 @@
 #Reference : https://www.w3schools.com/python/pandas/pandas_getting_started.asp
+#Data sets in Pandas are usually multi-dimensional tables, called DataFrames. Series is like a column, a DataFrame is the whole table.
 
 import pandas as pd
 
