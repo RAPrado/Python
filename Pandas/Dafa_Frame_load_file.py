@@ -8,11 +8,11 @@ print(pd.options.display.max_rows)
 #Defined a new number of rows to be displayed
 pd.options.display.max_rows = 20
 
-#Load a csv file
+#Option A - Load a csv file
 #A legitimate comma separated file
 df = pd.read_csv('teste.csv')
 
-#A file separated by semicolons
+#Option B - A file separated by semicolons
 df = pd.read_csv('Evolucao_Portugal_ultimas_6_decadas.csv',delimiter=';')
 
 #print just part of lines, according with maxrows
