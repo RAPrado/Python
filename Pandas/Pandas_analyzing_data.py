@@ -3,6 +3,7 @@ pd.__version__
 
 df = pd.read_csv('Portugal.csv',delimiter=';')
 
+######################################################
 #Read top lines
 df.head()
 
@@ -16,6 +17,7 @@ df.head(10)
 #3  População residente   1991   9.960,20
 #4  População residente   2001  10.362,70
 
+######################################################
 #Read bot lines
 df.tail()
 
@@ -26,6 +28,7 @@ df.tail()
 #19  Jovens menos de 15 anos  2011  1.588.663
 #20  Jovens menos de 15 anos  2021  1.365.940
 
+######################################################
 #Info about the file
 df.info()
 
@@ -39,3 +42,17 @@ df.info()
 # 2   Valor      17 non-null     object
 #dtypes: int64(1), object(2)
 #memory usage: 636.0+ bytes
+
+######################################################
+#Describe columns
+df.describe()
+
+#          CampoA
+#count     6.485300e+04
+#mean      5.671174e+06
+#std       4.080150e+06
+#min       4.316000e+03
+#25%       3.921216e+06
+#50%       5.871981e+06
+#75%       7.225856e+06
+#max       9.900000e+07
