@@ -17,3 +17,14 @@ print(df)
 #Exemplo 3 - ignorando header
 df = pd.read_excel("arquivo.xlsx",header = None)
 print(df) 
+
+#Exemplo 4 - alterando o tipo de dados das colunas
+df = pd.read_excel("arquivo.xlsx",
+                   dtype = {"Products": str,
+                            "Price":float}))
+
+Exemplo 5 - alterando valores de dados desconhecidos para “NaN ”
+df = pd.read_excel("arquivo.xlsx",                    
+                   na_values =['item1', 
+                               'item2'])
+print(df) 
