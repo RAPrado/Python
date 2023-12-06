@@ -1,5 +1,5 @@
 # Instalar o Pandas no Python
-1. Execute o comando abaixo no cmd, para instalar o vitualenv:<p>
+1. Execute o comando abaixo no Jupyter-lab (ou cmd caso prefira), para instalar a bibliotéca:<p>
 **pip install Pandas**
      
 2. Após instalado, pelo Jupyter-lab, importe a biblioteca do Pandas e teste a versão:<p>
