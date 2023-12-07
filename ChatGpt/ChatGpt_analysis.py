@@ -1,7 +1,7 @@
 #Referência : https://youtu.be/ZwfZlqTzsuA
 #             https://github.com/Renatoelho/analise-sentimento-python-chatgpt
 
-from senha import API_KEY
+from api_key import API_KEY
 
 import requests
 import json
