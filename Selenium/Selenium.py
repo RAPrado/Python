@@ -1,3 +1,5 @@
+#Exemplo de nagevação usando o Selenium no Chrome
+
 #pip install selenium
 #pip install webdriver-manager
 
@@ -11,22 +13,28 @@ servico = Service(ChromeDriverManager().install()) #Identifica qual a versão do
 navegador = webdriver.Chrome(service=servico) #Define o browser a ser utilizado
 
 #Site a navegar
-navegador.get("https://pt.trustpilot.com/review/")
+navegador.get("https://url")
 
 try:
-    for i in range(4,25):
-        if i != 14:
-            avaliacao = navegador.find_element('xpath','//*[@id="__next"]/div/div/main/div/div[3]/section/div['+str(i)+']/article/div/section/div[2]/p[1]').text
-            data_avaliacaon= navegador.find_element('xpath','//*[@id="__next"]/div/div/main/div/div[3]/section/div['+str(i)+']/article/div/section/div[2]/p[2]').text
-            print(data_avaliacaon)
-            print(str(i)+avaliacao)        
-            print("")
+    paginar = True
+
+    while paginar:
+        for i in range(4,25):
+            campoA = navegador.find_element('xpath','//*[@id="__next"]/div/div/main/div/div[3]/section/div['+str(i)+']/article/div/section/div[2]/p[1]').text
+            campoB= navegador.find_element('xpath','//*[@id="__next"]/div/div/main/div/div[3]/section/div['+str(i)+']/article/div/section/div[2]/p[2]').text
+
+        if i == 24:
+            #Botão Próximo
+            navegador.find_element('xpath','//*[@id="__next"]/div/div/main/div/div[3]/section/div[26]/nav/a[4]').click()
+        else:
+            paginar = False
 except:
      print("erro")
 
-#Botão Próximo
-navegador.find_element('xpath','//*[@id="__next"]/div/div/main/div/div[3]/section/div[26]/nav/a[4]').click()
+#Fecha o browser
+navegador.close()
 
+#Pegar o XPATH
 #Clicar em Inspecionar o site com o botao direito mouse, selecionar o cursor, e na pagina clicar no obejto desejado, então no codigo que será selecionado no inspecionar, pressionar botão direito mouse, copy, e escolher opção xpath
 
 #Achar todos objetos pelo xpath inteiro ou parcial
@@ -38,7 +46,6 @@ navegador.find_element('xpath','//*[@id="__next"]/div/div/main/div/div[3]/sectio
 #Eventos
 #.click()
 #.send_keys()
-#navegador.find_element(By.NAME, "q")
+#navegador.find_element(By.NAME, "q") #Achar pelo name.
 
-#Fecha o browser
-#navegador.close()
+
