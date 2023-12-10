@@ -49,3 +49,4 @@ navegador.close()
 #navegador.find_element(By.NAME, "q") #Achar pelo name.
 
 
+
