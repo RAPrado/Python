@@ -31,6 +31,15 @@ def tratarData(conteudo:str):
 
     return datetime.strptime(data, '%d/%m/%Y').date()
 
+def tratarNota(nota):
+    posicao = nota.find('Classificada ')
+
+    if posicao > -1:
+        posicao += 13
+        return nota[posicao:1]
+    else:
+        return 0
+
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
@@ -57,12 +66,17 @@ try:
     while paginar:
         for i in range(4,25):
             if i != 14:
+                avaliador = navegador.find_element('xpath','//*[@id="__next"]/div/div/main/div/div[3]/section/div['+str(i)+']/article/div/aside/div/a/span').text                
+                
+                notaObj = navegador.find_element('xpath','//*[@id="__next"]/div/div/main/div/div[3]/section/div['+str(i)+']/article/div/section/div[1]/div[1]/img')
+                nota = (tratarNota(notaObj.get_attribute('outerHTML')))
+                
                 avaliacao = navegador.find_element('xpath','//*[@id="__next"]/div/div/main/div/div[3]/section/div['+str(i)+']/article/div/section/div[2]/p[1]').text
                 avaliacao = avaliacao.replace('\n',' ') #Remove quebra de linha
                 
                 dataAvaliacao= tratarData(navegador.find_element('xpath','//*[@id="__next"]/div/div/main/div/div[3]/section/div['+str(i)+']/article/div/section/div[2]/p[2]').text)
                 
-                lista.append([dataAvaliacao,avaliacao])
+                lista.append([dataAvaliacao,nota,avaliador,avaliacao])
         
         if i == 24:
             #Botão Próximo
