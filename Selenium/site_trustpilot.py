@@ -17,7 +17,7 @@ def mesParaNumero(mes:str):
             'dezembro': 12
     }[mes.lower()]
 
-def tratarData(conteudo:str)-> date:
+def tratarData(conteudo:str):
     from datetime import datetime
     
     conteudo = conteudo.replace("Data da experiência: ","")
