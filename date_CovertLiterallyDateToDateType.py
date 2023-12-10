@@ -1,5 +1,5 @@
 #Receives a date (Data da experiência: 10 de dezembro de 2023) written literally and converts it to a date
-def tratarData(conteudo:str)-> date:
+def tratarData(conteudo:str):
     from datetime import datetime
     
     conteudo = conteudo.replace("Data da experiência: ","")
