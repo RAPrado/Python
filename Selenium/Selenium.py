@@ -48,5 +48,9 @@ navegador.close()
 #.send_keys()
 #navegador.find_element(By.NAME, "q") #Achar pelo name.
 
+#Ler o html de um objeto
+conteudo= navegador.find_element('xpath','//*[@id="__next"]/div/div/main/div/div[3]/section/div[4]/article/div/section/div[1]/div[1]/img')
+print(conteudo.get_attribute('outerHTML'))
+
 
 
