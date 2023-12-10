@@ -75,3 +75,4 @@ except:
 
 for item in lista :
     print(item)
+
