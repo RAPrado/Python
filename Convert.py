@@ -10,6 +10,8 @@ y = float('10') #Resultado = 10.0
 x = str(10) #Resultado = 10
 
 #Coverter para data
+#Referencia: https://dicasdeprogramacao.com.br/python-como-converter-string-em-date/
+
 from datetime import datetime
 dia = str(1)
 mes = str(12)
