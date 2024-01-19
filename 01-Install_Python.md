@@ -37,6 +37,9 @@
 8. Para instalar uma biblioteca :<p>
   **pip install < nome da bliboteca >**  
 
+9. Caso não consiga utilizar o PIP devido a alguma restrição da rede da empresa ou uso de VPN, recebendo uma mensagem = WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Your proxy apperas to only use HTTP and not HTTPS, try changing your proxy URL to be HTTP...', execute o comando abaixo :<p>
+  **pip config set global.proxy http://url:porta**
+
 Referências :<p>
 https://stackoverflow.com/questions/32639074/why-am-i-getting-importerror-no-module-named-pip-right-after-installing-pip<br>
 https://www.geeksforgeeks.org/download-and-install-pip-latest-version/#windows<br>
