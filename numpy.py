@@ -7,6 +7,10 @@ dado = [[1.0,2,3],[4,5.0,6]]
 meu_array = np.array(dado,dtype=int)
 print(meu_array)
 
+#Cria array com 1 linha e 10 valores.
+meu_array = np.arange(10)
+print(meu_array)
+
 #Cria array com 3 linhas e 4 colunas, com valores zerados.
 meu_array = np.zeros((3,4),dtype=int)
 print(meu_array)
