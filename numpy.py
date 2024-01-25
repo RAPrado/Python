@@ -2,6 +2,8 @@ import numpy as np
 
 #Cria array bi-dimensional
 dado = [[1.0,2,3],[4,5.0,6]]
+
+#Converte o array para Numpy
 meu_array = np.array(dado,dtype=int)
 print(meu_array)
 
