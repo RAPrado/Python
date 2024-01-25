@@ -1,7 +1,7 @@
 # Numpy - exemplos de arrays
 
 **Importar a biblioteca Numpy**
-```python border="1"
+```python
 import numpy as np
 ```
 
