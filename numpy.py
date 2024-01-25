@@ -26,3 +26,20 @@ print(meu_array)
 #Cria array com 3 linhas e 5 colunas, com valores randômicos.
 meu_array = np.random.randn(3,5)
 print(meu_array)
+
+#****************************************************************************************
+#Compara usando o array nativo do Python vs usando Numpy
+import time
+import numpy as np
+
+a = time.time()
+L = range(100000000)
+[i**2 for i in L]
+print (time.time() - a)
+#Tempo de execução em segundos : 22.808863401412964
+
+a = time.time()
+b = np.arange(10000000)
+b**2
+print (time.time() - a)
+#Tempo de execução em segundos : 0.028621673583984375
