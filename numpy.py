@@ -1,3 +1,5 @@
+#Referência : https://estruturas.ufpr.br/disciplinas/pos-graduacao/introducao-a-computacao-cientifica-com-python/introducao-python/2-1-o-objeto-array-do-numpy/
+
 import numpy as np
 
 #Cria array bi-dimensional
