@@ -1,7 +1,7 @@
 # Numpy - exemplos de arrays
 
 **Importar a biblioteca Numpy**
-```python
+```python border="1"
 import numpy as np
 ```
 
@@ -10,6 +10,7 @@ import numpy as np
 dado = [[1.0,2,3],[4,5.0,6]]
 print(meu_array)
 ```
+
 
 **Converte o array nativo para Numpy**
 ```python
