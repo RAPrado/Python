@@ -56,3 +56,14 @@ df.describe()
 #50%       5.871981e+06
 #75%       7.225856e+06
 #max       9.900000e+07
+
+df.describe().applymap('{:,.2f}'.format) #Formating with 2 decimal positions
+#          CampoA
+#count     6.48
+#mean      5.67
+#std       4.08
+#min       4.31
+#25%       3.92
+#50%       5.87
+#75%       7.22
+#max       9.90
