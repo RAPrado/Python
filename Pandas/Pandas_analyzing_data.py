@@ -85,4 +85,21 @@ df.isnull().sum()
 #V1        0
 #V2        0
 #dtype: int64
-  
+
+######################################################
+#Faz group by pelo campo escolhido, e count dos registros
+df.groupby("Class").size()
+#Class
+#0    284315
+#1       492
+#dtype: int64
+
+
+# Agrupar as transações por classe e selecionar a variável "Amount"
+data = df.groupby("Class")["Amount"].apply(list)
+
+data.head()
+#Class
+#0    [149.62, 2.69, 378.66, 123.5, 69.99, 3.67, 4.9...
+#1    [0.0, 529.0, 239.93, 59.0, 1.0, 1.0, 1.0, 1.0,...
+#Name: Amount, dtype: objec
