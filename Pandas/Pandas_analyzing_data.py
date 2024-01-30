@@ -43,6 +43,10 @@ df.info()
 #dtypes: int64(1), object(2)
 #memory usage: 636.0+ bytes
 
+
+#Ou uma versão mais reduzida
+df.dtypes
+
 ######################################################
 #Describe columns
 df.describe()
@@ -67,3 +71,18 @@ df.describe().applymap('{:,.2f}'.format) #Formating with 2 decimal positions
 #50%       5.87
 #75%       7.22
 #max       9.90
+
+######################################################
+# Saber o tamanho do dataset : linhas/colunas
+df.shape
+#(284807, 31)
+
+######################################################
+#Saber o total de valores ausentes ("missing values") em cada coluna. 
+df.isnull().sum()
+
+#Time      0
+#V1        0
+#V2        0
+#dtype: int64
+  
