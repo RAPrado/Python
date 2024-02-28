@@ -45,9 +45,10 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By #método para localizar elementos
 
-servico = Service(ChromeDriverManager().install()) #Identifica qual a versão do Chrome utilizada e instala ChromeDriverManager correspondente.
-
-navegador = webdriver.Chrome(service=servico) #Define o browser a ser utilizado
+#Usar o código abaixo somente em selenium abaixo da versão 4.6.0
+#servico = Service(ChromeDriverManager().install()) #Identifica qual a versão do Chrome utilizada e instala ChromeDriverManager correspondente.
+#navegador = webdriver.Chrome(service=servico) #Define o browser a ser utilizado
+navegador = webdriver.Chrome() #Define o browser a ser utilizado
 
 #Site a navegar
 navegador.get("https://pt.trustpilot.com/review/empresa.pt")
