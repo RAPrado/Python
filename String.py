@@ -12,9 +12,13 @@ data="10/dezembro/2023"
 
 posicao=data.find('/')
 dia = data[0:2]           #Get 2 left positions
+
 mes = data[posicao+1:-5]  #Get the month, starting after de bar position, minus the last 5 positions
+mes_tres_posicoes = data[posicao+1:posicao+4]  #Get three positions from month's name
+
 ano = data[-4:]           #Get 4 right positions
 
 print(dia) #Resulsato : 10
 print(mes) #Resulsato : dezembro
+print(mes_tres_posicoes) #Resulsato : dez
 print(ano) #2023
