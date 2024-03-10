@@ -14,3 +14,15 @@ def fatorial(n):
 
 n=int(input('Infomre um número para calcular o seu fatorial :'))
 print('Fatorial:', fatorial(n))
+
+
+#Exemple 3 using yield to calculate Fibonacci
+def fibonacci(n):
+    a,b=0,1
+    
+    for _ in range(n):
+        yield a
+        a,b=b,a+b
+
+n=int(input('Infomre um número para calcular a sequencia Fibonacci :'))
+print(list(fibonacci(n)))
