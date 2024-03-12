@@ -103,3 +103,7 @@ data.head()
 #0    [149.62, 2.69, 378.66, 123.5, 69.99, 3.67, 4.9...
 #1    [0.0, 529.0, 239.93, 59.0, 1.0, 1.0, 1.0, 1.0,...
 #Name: Amount, dtype: objec
+
+#Ler colunas específica
+df[['Coluna A','Coluna B']]
+
