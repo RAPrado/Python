@@ -31,3 +31,4 @@ Texto2 = ["""Isso não é um teste de comparação entre duas listas""",
          """Para que comparar esse texto"""]
 
 print("O percentual de semelhança é de :",semelhanca_entre_textos(Texto1,Texto2))
+#O percentual de semelhança é de : [0.9333333333333333, 0.0]
