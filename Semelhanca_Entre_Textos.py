@@ -10,14 +10,22 @@ def semelhanca_entre_textos(texto1, texto2):
     #ex. bigrama : {‘Isso um’, ‘um teste’, ‘teste de’...}
     #ex. tokenizando com Unigrams e Bigrams : {‘Isso’, ‘um’, ‘teste’, ‘de’,‘Isso um’, ‘um teste’, ‘teste de’...}
     vetor = CountVectorizer(analyzer = 'word',ngram_range=(1,2))
+    
+    #Show the vocabulary
+    #vocab = vetor.fit([t1,t2])
+    #vocab.vocabulary_
+
     semelhanca=[]
 
     for avaliacao1 in texto1:
         for avaliacao2 in texto2:
             a1, a2 = vetor.fit_transform([avaliacao1, avaliacao2])
-            t1, t2 = a1.toarray(), a2.toarray()
+            t1, t2 = a1.toarray(), a2.toarray() #transform into array to see matrix
+            #print(t1,t2) #Print the matrix
 
-            menor =np.amin([t1,t2], axis = 0)
+            menor =np.amin([t1,t2], axis = 0)  #Get the lower value of each intersection
+            #print(menor)
+            
             soma = np.sum(menor)
             conta = np.sum([t1,t2][0])
             perc = soma/conta
