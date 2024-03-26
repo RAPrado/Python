@@ -26,3 +26,14 @@ def fibonacci(n):
 
 n=int(input('Infomre um número para calcular a sequencia Fibonacci :'))
 print(list(fibonacci(n)))
+
+
+#Example 3 using list comprehension and zip
+vetor_a= [1,5]
+vetor_b=[2,6]
+
+# Calcula o produto escalar entre os dois vetores
+produto_escalar = sum(a * b for a, b in zip(vetor_a, vetor_b))
+#print(set(zip(vetor_a, vetor_b))) #Usar o set para poder visualizar o resultado do zip
+
+print(produto_escalar)
