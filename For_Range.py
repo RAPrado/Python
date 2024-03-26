@@ -28,6 +28,7 @@ n=int(input('Infomre um número para calcular a sequencia Fibonacci :'))
 print(list(fibonacci(n)))
 
 
+
 #Example 4 using list comprehension and zip
 vetor_a= [1,5]
 vetor_b=[2,6]
