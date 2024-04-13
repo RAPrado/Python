@@ -116,7 +116,10 @@ df['coluna_c'] = df_outro['coluna_z']
 
 ######################################################
 # Aplicando uma função para tratar o conteúdo de uma coluna
-df['coluna_a'] = df['coluna_a'].apply(nome da função)
+df['coluna_a'] = df['coluna_a'].apply(nome_da-função)
+
+# Se a função chamada exige parâmetros, basta informar usando o comando "args=(,)" e dentro dos parenteses passar o parâmetro, e após o parâmetro, dever terminar com uma vírgula ","
+df['coluna_a'] = df['coluna_a'].apply(nome_da-função,args=('param1',))
 
 # Split do conteúdo
 df['coluna_a'] = df['coluna_a'].apply(lambda x:x.split()) #Como não foi informado nada no split(), aplica o split usando o espaço como serador, mas poderia usar split(';').
