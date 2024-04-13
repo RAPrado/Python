@@ -111,10 +111,18 @@ df_a = df_a.merge(df_b, on = 'coluna id')
 df = df[['coluna_a', 'coluna_b']]
 
 ######################################################
+# Criando uma nova coluna no dataframe
+df['coluna_c'] = df_outro['coluna_z']
+
+######################################################
 # Aplicando uma função para tratar o conteúdo de uma coluna
 df['coluna_a'] = df['coluna_a'].apply(nome da função)
 
+# Split do conteúdo
 df['coluna_a'] = df['coluna_a'].apply(lambda x:x.split()) #Como não foi informado nada no split(), aplica o split usando o espaço como serador, mas poderia usar split(';').
+
+# Substiui espaço por vazio.
+df['coluna_a'] = df['coluna_a'].apply(lambda x:[i.replace(" ","") for i in x])
 
 ######################################################
 #Faz group by pelo campo escolhido, e count dos registros
