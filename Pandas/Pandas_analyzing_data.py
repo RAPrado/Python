@@ -114,6 +114,8 @@ df = df[['coluna_a', 'coluna_b']]
 # Aplicando uma função para tratar o conteúdo de uma coluna
 df['coluna_a'] = df['coluna_a'].apply(nome da função)
 
+df['coluna_a'] = df['coluna_a'].apply(lambda x:x.split()) #Como não foi informado nada no split(), aplica o split usando o espaço como serador, mas poderia usar split(';').
+
 ######################################################
 #Faz group by pelo campo escolhido, e count dos registros
 df.groupby("Class").size()
