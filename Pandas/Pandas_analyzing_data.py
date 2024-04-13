@@ -111,6 +111,10 @@ df_a = df_a.merge(df_b, on = 'coluna id')
 df = df[['coluna_a', 'coluna_b']]
 
 ######################################################
+# Aplicando uma função para tratar o conteúdo de uma coluna
+df['coluna_a'] = df['coluna_a'].apply(nome da função)
+
+######################################################
 #Faz group by pelo campo escolhido, e count dos registros
 df.groupby("Class").size()
 #Class
