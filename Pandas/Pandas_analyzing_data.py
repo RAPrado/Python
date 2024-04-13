@@ -86,6 +86,30 @@ df.isnull().sum()
 #V2        0
 #dtype: int64
 
+# Removemo as linhas com valores nulos e salva o resultado no próprio dataframe através do parâmetro : inplace = True
+df.dropna(inplace = True)
+
+######################################################
+# Verifica registros duplicados
+df.duplicated().sum()
+
+#Deleta registros duplicados baseados em todas as colunas
+df.drop_duplicates()
+
+#Deleta registros duplicados baseado em uma coluna
+df.drop_duplicates(subset=['coluna_a'])
+
+#Deleta registros duplicados baseado em duas colunas e mantem a última ocorrência
+df.drop_duplicates(subset=['coluna_a', 'coluna_b'], keep='last')
+
+######################################################
+# Merge entre dataframes
+df_a = df_a.merge(df_b, on = 'coluna id')
+
+######################################################
+# Filtrando o dataframe e mantendo somente as colunas desejadas
+df = df[['coluna_a', 'coluna_b']]
+
 ######################################################
 #Faz group by pelo campo escolhido, e count dos registros
 df.groupby("Class").size()
