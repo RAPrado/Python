@@ -121,8 +121,14 @@ df['coluna_a'] = df['coluna_a'].apply(nome da função)
 # Split do conteúdo
 df['coluna_a'] = df['coluna_a'].apply(lambda x:x.split()) #Como não foi informado nada no split(), aplica o split usando o espaço como serador, mas poderia usar split(';').
 
+# Join do conteúdo
+df['coluna_a'] = df['coluna_a'].apply(lambda x:" ".join(x))
+
 # Substiui espaço por vazio.
 df['coluna_a'] = df['coluna_a'].apply(lambda x:[i.replace(" ","") for i in x])
+
+# Transforma conteúdo em minúsculo
+df['coluna_a'] = df['coluna_a'].apply(lambda x:x.lower())
 
 ######################################################
 #Faz group by pelo campo escolhido, e count dos registros
