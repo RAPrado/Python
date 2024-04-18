@@ -103,6 +103,10 @@ df.drop_duplicates(subset=['coluna_a'])
 df.drop_duplicates(subset=['coluna_a', 'coluna_b'], keep='last')
 
 ######################################################
+#Ordering by a field
+df = df.sort_values('nome do campo', ascending=False) #To ordering ascending, just put True or omit de parameter.
+
+######################################################
 # Merge entre dataframes
 df_a = df_a.merge(df_b, on = 'coluna id')
 
