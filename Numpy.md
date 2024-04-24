@@ -48,6 +48,15 @@ meu_array = np.random.randn(3,5)
 print(meu_array)
 ```
 
+**Copiando uma matriz**
+```python
+#Cria uma matriz
+m = np.array([[1,2,3,4], [5,6,7,8], [9,10,11,12]])
+
+#Cria nova matriz copiando o conteúdo da anterior. Desta forma se alterar o conteúdo da m2 não irá alterar na m, pois são cópias.
+#Já se fizer m2=m, ao invés de copiar, a variável m2 estará usando a mesma área de memória da m, e desta forma, se alterar o conteúdo na m2, irá alterar na m também.
+m2=m.copy()
+```
 
 # Compara tempo de processamento usando o array nativo do Python vs usando Numpy
 ```python
