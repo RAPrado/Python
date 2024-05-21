@@ -21,6 +21,7 @@ print(df.loc[0])
 print(df.loc[[0, 1]])
 
 
+############################################################################################
 #2-Add a list of names to give each row a name
 import pandas as pd
 
@@ -38,3 +39,18 @@ print(df)
 
 #refer to the named index:
 print(df.loc["line1"])
+
+
+############################################################################################
+#3-Add new row in a dataframe
+import pandas as pd
+Texto = {
+        'Coluna_Nome':[
+         """Linha 1""",
+         """Linha 2"""]
+        }
+
+df = pd.DataFrame(Texto) #Create the dataframe
+
+df2 = pd.DataFrame(["Linha 3"], columns=['Coluna_Nome']) #Create a new df with de new row.
+df = pd.concat([df, df2], ignore_index=True) #Use pd.concat to concatenate the new row in existing df.
