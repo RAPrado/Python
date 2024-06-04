@@ -54,3 +54,15 @@ df = pd.DataFrame(Texto) #Create the dataframe
 
 df2 = pd.DataFrame(["Linha 3"], columns=['Coluna_Nome']) #Create a new df with de new row.
 df = pd.concat([df, df2], ignore_index=True) #Use pd.concat to concatenate the new row in existing df.
+
+
+############################################################################################
+#4-Changing column datatype
+import pandas as pd
+
+df1 = pd.DataFrame([],columns=['Coluna_a','Coluna_b'])
+print(df1.dtypes)
+
+df1['Coluna_a'] = df1['Coluna_a'].astype(str)
+df1['Coluna_b'] = df1['Coluna_b'].astype(float)
+print(df1.dtypes)
