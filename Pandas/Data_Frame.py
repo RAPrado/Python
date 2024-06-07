@@ -66,3 +66,6 @@ print(df1.dtypes)
 df1['Coluna_a'] = df1['Coluna_a'].astype(str)
 df1['Coluna_b'] = df1['Coluna_b'].astype(float)
 print(df1.dtypes)
+
+#Converting from pandas to numpy
+matrix = df1.to_numpy()
