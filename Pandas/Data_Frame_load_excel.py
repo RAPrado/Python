@@ -1,13 +1,12 @@
 #Reference : https://stackoverflow.com/questions/52763680/jupyter-notebook-cant-find-pyxlsb-module
 #            https://acervolima.com/como-importar-um-arquivo-excel-para-python-usando-pandas/
 
-#Caso dê erro na importação, instalar essa biblioteca.
-#pip install pyxlsb
+pip install pyxlsb
 
 import pandas as pd
 
 #Exemplo 1
-df = pd.read_excel("arquivo.xlsb")
+df = pd.read_excel("arquivo.xlsb",sheet_name="Nome_da_sheet")
 print(df) 
 
 #Exemplo 2 - definindo a coluna a ser importada
