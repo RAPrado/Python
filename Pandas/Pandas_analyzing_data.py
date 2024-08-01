@@ -158,3 +158,10 @@ data.head()
 #Ler colunas específica
 df[['Coluna A','Coluna B']]
 
+######################################################
+#Count values
+df['Column_A'].value_counts()
+#Column_A
+#Sim    282
+#Nao    118
+#Name: count, dtype: int64
