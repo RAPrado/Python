@@ -159,9 +159,18 @@ data.head()
 df[['Coluna A','Coluna B']]
 
 ######################################################
-#Count values
+#Count values / Frequency
 df['Column_A'].value_counts()
 #Column_A
 #Sim    282
 #Nao    118
 #Name: count, dtype: int64
+
+######################################################
+#Contingency table
+pd.crosstab(df['status_entrega'], df['area_urbana'])
+#   area_urbana Nao Sim
+#status_entrega		
+#           Bom	28   57
+#         Medio	68  151
+#          Ruim	22   74
