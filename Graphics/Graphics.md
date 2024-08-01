@@ -1,4 +1,4 @@
-# Creating a histogram
+# Creating graphics
 1. Install packages
 ```python
 pip install pandas
@@ -32,15 +32,31 @@ dtypes: float64(1), int64(3), object(3)
 memory usage: 22.0+ KB
 ```
 
-4. Define style
+4. Defining style
 ```python
 sns.set(style="darkgrid")
 ```
 
-5. Plot of unit sales value
+5. Plot a histogram graphic
 ```python
 fig, axes = plt.subplots(1, 1, figsize = (10, 4))
 fig.suptitle('Distribution of Unit Sales Value')
 sns.histplot(df['valor_venda_unitario'], kde = True);
 ```
 <img src="/image/image15.png">
+
+6. Plot a bar graphic
+```python
+fig, axes = plt.subplots(1, 1, figsize = (10, 4))
+fig.suptitle('Distribuition of Urban Area')
+sns.countplot(data = df, x = 'area_urbana');
+```
+<img src="/image/image16.png">
+
+7. Plot a pie graphic
+```python
+fig, axes = plt.subplots(1, 1, figsize = (10, 4))
+fig.suptitle('Distribuition of local client')
+df['cliente_local'].value_counts().plot(kind = 'pie', autopct = '%1.1f%%');
+```
+<img src="/image/image17.png">
