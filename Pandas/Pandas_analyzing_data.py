@@ -174,3 +174,20 @@ pd.crosstab(df['status_entrega'], df['area_urbana'])
 #           Bom	28   57
 #         Medio	68  151
 #          Ruim	22   74
+
+
+#Using three columns
+pd.crosstab(index = [df['status_entrega'], df['area_urbana']], 
+            columns = df['cliente_local'],
+            margins = True, 
+            margins_name = "Total")
+
+#    cliente_local Nao	Sim	Total
+#status_entrega	area_urbana			
+#           Bom	Nao  6	22	28
+#               Sim	18	39	57
+#         Medio	Nao	29	39	68
+#               Sim	55	96	151
+#          Ruim	Nao	11	11	22
+#               Sim	23	51	74
+#Total		         142 258 400
