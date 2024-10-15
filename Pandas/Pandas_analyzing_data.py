@@ -29,6 +29,16 @@ df.tail()
 #20  Jovens menos de 15 anos  2021  1.365.940
 
 ######################################################
+#Read aleatory samples
+df.sample(10)
+#                  Indicador   Ano      Valor
+#16  Jovens menos de 15 anos  1981  2.493.763
+#17  Jovens menos de 15 anos  1991  1.959.671
+#18  Jovens menos de 15 anos  2001  1.679.191
+#19  Jovens menos de 15 anos  2011  1.588.663
+#20  Jovens menos de 15 anos  2021  1.365.940
+
+######################################################
 #Info about the file
 df.info()
 
@@ -48,7 +58,7 @@ df.info()
 df.dtypes
 
 ######################################################
-#Describe columns
+#Describe columns only numerics
 df.describe()
 
 #          CampoA
@@ -60,6 +70,12 @@ df.describe()
 #50%       5.871981e+06
 #75%       7.225856e+06
 #max       9.900000e+07
+
+#Category columns
+df.describe(include=['object'])
+
+#List all columns
+df.describe(include='all')
 
 df.describe().applymap('{:,.2f}'.format) #Formating with 2 decimal positions
 #          CampoA
@@ -117,6 +133,38 @@ df = df[['coluna_a', 'coluna_b']]
 ######################################################
 # Criando uma nova coluna no dataframe
 df['coluna_c'] = df_outro['coluna_z']
+
+######################################################
+# Showing the columns
+df.columns
+Index(['Country', 'Year', 'Status', 'Life expectancy ', 'Adult Mortality',
+       'infant deaths', 'Alcohol', 'percentage expenditure', 'Hepatitis B',
+       'Measles ', ' BMI ', 'under-five deaths ', 'Polio', 'Total expenditure',
+       'Diphtheria ', ' HIV/AIDS', 'GDP', ' Population',
+       ' thinness  1-19 years', ' thinness 5-9 years',
+       'Income composition of resources', 'Schooling'],
+      dtype='object')
+
+# Rename the columns
+df = pd.DataFrame({'country': df_dsa['Country'],
+                   'life_expectancy': df_dsa['Life expectancy '],
+                   'year': df_dsa['Year'],
+                   'status': df_dsa['Status'],
+                   'adult_mortality': df_dsa['Adult Mortality'],
+                   'inf_death': df_dsa['infant deaths'],
+                   'alcohol': df_dsa['Alcohol'],
+                   'hepatitisB': df_dsa['Hepatitis B'],
+                   'measles': df_dsa['Measles '],
+                   'bmi': df_dsa[' BMI '],
+                   'polio': df_dsa['Polio'],
+                   'diphtheria': df_dsa['Diphtheria '],
+                   'hiv': df_dsa[' HIV/AIDS'],
+                   'gdp': df_dsa['GDP'],
+                   'total_expenditure': df_dsa['Total expenditure'],
+                   'thinness_till19': df_dsa[' thinness  1-19 years'],
+                   'thinness_till9': df_dsa[' thinness 5-9 years'],
+                   'school': df_dsa['Schooling'],
+                   'population': df_dsa[' Population']})
 
 ######################################################
 # Aplicando uma função para tratar o conteúdo de uma coluna
