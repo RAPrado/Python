@@ -97,10 +97,21 @@ df.shape
 #Saber o total de valores ausentes ("missing values") em cada coluna. 
 df.isnull().sum()
 
-#Time      0
-#V1        0
-#V2        0
+#Time      2
+#V1        1
+#V2        3
 #dtype: int64
+
+#Ordenando as colunas com nulos descrescente
+df.isnull().sum().sort_values(ascending = False)
+#Time      3
+#V1        2
+#V2        1
+#dtype: int64
+
+#Exibindo em percentual e somente os maiores que zero
+nulos=df.isnull().sum().sort_values(ascending = False)
+nulos[nulos>0]/df.shape[0]*100
 
 # Removemo as linhas com valores nulos e salva o resultado no próprio dataframe através do parâmetro : inplace = True
 df.dropna(inplace = True)
