@@ -197,6 +197,13 @@ df['coluna_a'] = df['coluna_a'].apply(lambda x:[i.replace(" ","") for i in x])
 df['coluna_a'] = df['coluna_a'].apply(lambda x:x.lower())
 
 ######################################################
+# Tratando os nulos, preenchendo com a mediana dos demais valores (Usando transform ao invés do apply)
+def calc_median(valores):
+    return valores.fillna(valores.median())
+  
+df.coluna_a = df['coluna_a'].transform(calc_median)
+
+######################################################
 #Faz group by pelo campo escolhido, e count dos registros
 df.groupby("Class").size()
 #Class
